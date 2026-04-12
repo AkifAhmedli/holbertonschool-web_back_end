@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-Bu modul iki sətri birləşdirən funksiyanı ehtiva edir.
+Bu modul float rəqəmi aşağı tam hissəyə yuvarlaqlaşdıran
+funksiyanı ehtiva edir.
 """
+import math
 
 
-def concat(str1: str, str2: str) -> str:
-    """İki sətri birləşdirir və nəticəni qaytarır."""
-    return str1 + str2
+def floor(n: float) -> int:
+    """Verilmiş float rəqəmin tam hissəsini (floor) qaytarır."""
+    return math.floor(n)
