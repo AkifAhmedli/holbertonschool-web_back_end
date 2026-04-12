@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Bu modul başqa bir funksiya qaytaran yüksək dərəcəli 
+Bu modul başqa bir funksiya qaytaran yüksək dərəcəli
 funksiyanı ehtiva edir.
 """
 from typing import Callable
