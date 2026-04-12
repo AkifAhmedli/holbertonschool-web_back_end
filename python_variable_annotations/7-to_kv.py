@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Bu modul qarışıq tipli (int və float) siyahını cəmləyən
-funksiyanı ehtiva edir.
+Bu modul sətir və ədəd qəbul edib tuple qaytaran funksiyanı ehtiva edir.
 """
-from typing import List, Union
+from typing import Union, Tuple
 
 
-def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
-    """Tam və onluq ədədlər siyahısını cəmləyir və float qaytarır."""
-    return float(sum(mxd_lst))
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """
+    Sətir və ədəd qəbul edir, ədədin kvadratını float kimi
+    hesablayıb tuple (k, v^2) qaytarır.
+    """
+    return (k, float(v**2))
