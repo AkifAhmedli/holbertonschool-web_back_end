@@ -1,2 +1,2 @@
-// Deletes all documents with name="Holberton school" in the collection school
+// my comment
 db.school.remove({ "name": "Holberton school" })
