@@ -1,9 +1,5 @@
-/**
- * Displays a message in STDOUT.
- * @param {string} message - The string to be printed.
- */
-function displayMessage(message) {
-  console.log(message);
+function displayMessage(string) {
+  console.log(string);
 }
 
 module.exports = displayMessage;
